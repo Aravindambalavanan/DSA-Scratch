@@ -3,24 +3,24 @@
 
 class CircularLinkedList
 {
-  public:
-    CircularLinkedList();
-    ~CircularLinkedList();
-    void Create();
-    void Display();
-    void InsertAtBeginning();
-    void InsertAtEnd();
-    void DeleteAtBeginning();
-    void DeleteAtEnd();
-    void DeleteList();
+public:
+  CircularLinkedList();
+  ~CircularLinkedList();
+  void Create();
+  void Display();
+  void InsertAtBeginning();
+  void InsertAtEnd();
+  void DeleteAtBeginning();
+  void DeleteAtEnd();
+  void DeleteList();
 
-  private:
-    struct CNode
-    {
-        int data;
-        CNode *next;
-    };
-    CNode *start;
+private:
+  struct CNode
+  {
+    int data;
+    CNode* next;
+  };
+  CNode* start;
 };
 
 #endif

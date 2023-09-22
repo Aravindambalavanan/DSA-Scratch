@@ -3,8 +3,8 @@
 
 class Menu
 {
-  public:
-    static int displayMenu();
+public:
+  static int displayMenu();
 };
 
 #endif
